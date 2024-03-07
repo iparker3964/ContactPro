@@ -41,6 +41,10 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @{
+                            var test = SignInManager.IsSignedIn(User);
+                            var testTwo = 1 + 2;
+                        }
                         @if (SignInManager.IsSignedIn(User))
                         {
                             <li class="nav-item">
