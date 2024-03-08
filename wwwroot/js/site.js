@@ -7,7 +7,7 @@ function loginAdmin() {
     console.log('here');
 
     var email = document.getElementById("email");
-    email.value = "arsenio3964@yahoo.com";
+    email.value = "arsenio3964@gmail.com";
 
     var password = document.getElementById("password");
     password.value = "@Anniston256";
