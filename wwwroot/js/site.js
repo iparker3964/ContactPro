@@ -2,6 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+loginAdmin();
 function loginAdmin() {
     console.log('here');
 
@@ -11,5 +12,5 @@ function loginAdmin() {
     var password = document.getElementById("password");
     password.value = "@Anniston256";
 
-    // document.getElementById("login-submit").click();
+    document.getElementById("login-submit").click();
 }
