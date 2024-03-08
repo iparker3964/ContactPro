@@ -67,7 +67,7 @@ namespace ContactPro.Areas.Identity.Pages.Account
             /// </summary>
             [Required]
             [EmailAddress]
-            public string Email { get; set; } = "arsenio3964@yahoo.com";
+            public string Email { get; set; }
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -75,7 +75,7 @@ namespace ContactPro.Areas.Identity.Pages.Account
             /// </summary>
             [Required]
             [DataType(DataType.Password)]
-            public string Password { get; set; } = "@Anniston256";
+            public string Password { get; set; }
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
